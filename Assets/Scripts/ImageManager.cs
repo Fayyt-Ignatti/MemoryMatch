@@ -31,7 +31,11 @@ public class ImageManager : MonoBehaviour
   public static string url1 = "D:/Documents/LessonPlans/USEducation/Pictures/MemoryMatch/";
   public static string url2 = "E:/Randall/MemoryMatch/Pictures/";
 
+  public InputField folderLocation;
+
   private int listEntry;
+
+  private string folder = "";
 
   public static bool url1Exists;
   public static bool url2Exists;
@@ -172,5 +176,12 @@ public class ImageManager : MonoBehaviour
     {
       SaveSystem.SetInt("Entry " + i.ToString(), ImageManager.randomizedImages[i]);
     }
+  }
+
+  public void FolderNavigator()
+  {
+    this.folder = this.folderLocation.text;
+    ImageManager.url1 = "D:/Documents/LessonPlans/USEducation/Pictures/MemoryMatch/" + this.folder + "/";
+    ImageManager.url2 = "E:/Randall/MemoryMatch/Pictures/" + this.folder + "/";
   }
 }

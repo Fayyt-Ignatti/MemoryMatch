@@ -16,7 +16,6 @@ public class SavesManager : MonoBehaviour
 
   public void Load2()
   {
-
     this.LoadRandomImages();
     this.LoadMatches();
   }

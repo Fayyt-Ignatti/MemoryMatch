@@ -31,6 +31,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -72,6 +73,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12540}
     - Class: 114
       Script: {instanceID: 12890}
+    - Class: 114
+      Script: {instanceID: 13178}
     - Class: 114
       Script: {instanceID: 13646}
     - Class: 114
@@ -560,7 +563,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: e7e2de7186528b03d709ad70256b9141
+      Hash: 1b83c44450b20cb76d9fad3a70d10d58
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ImageManager
